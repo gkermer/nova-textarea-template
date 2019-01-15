@@ -1,0 +1,38 @@
+{
+    "name": "gkermer/nova-textarea-template",
+    "description": "A Laravel Nova textarea field with the ability to choose a text from templates.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "text",
+        "textarea",
+        "template"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Kermer",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gkermer\\TextareaTemplate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gkermer\\TextareaTemplate\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
